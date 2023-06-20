@@ -1,0 +1,211 @@
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    overflow-y: hidden;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.CODE h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    max-width: 100%;
+}
+  
+.nav-links {
+    flex-grow: 1;
+    text-align: center;
+}
+  
+.nav-links ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 70px;
+}
+
+.nav-links li {
+    position: relative;
+}
+  
+.nav-links #inicio::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #EEFB03;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.nav-links #inicio:hover::after {
+    visibility: visible;
+    transform: scaleX(0.2);
+}
+
+
+
+.nav-links #html::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #FF914D;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.nav-links #html:hover::after {
+    visibility: visible;
+    transform: scaleX(0.2);
+}
+
+.nav-links #css::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #5271FF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.nav-links #css:hover::after {
+    visibility: visible;
+    transform: scaleX(0.2);
+}
+
+
+.nav-links #js::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #EEFB03;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.nav-links #js:hover::after {
+    visibility: visible;
+    transform: scaleX(0.3);
+}
+
+
+.nav-links #mas::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #00BF63;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.nav-links #mas:hover::after {
+    visibility: visible;
+    transform: scaleX(0.4);
+}
+
+#inicio:hover {
+    color: #EEFB03;
+}
+
+#html:hover {
+    color: #FF914D;
+}
+
+#css:hover {
+    color: #5271FF;
+}
+  
+#js:hover {
+    color: #EEFB03;
+}
+
+#mas:hover {
+    color: #00BF63;
+}
+  
+
+/* Información General */
+
+.contenedor {
+    margin-top: 120px; /* Ajusta el espacio entre el nav y el contenido según tus necesidades */
+    padding: 100px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.h2{
+    font-size: 100px;
+}
+
+.h{
+    font-size: 100px;
+    color: #FF914D;
+}
+.c{
+    font-size: 100px;
+    color: #5271FF;
+}
+.s{
+    font-size: 100px;
+    color: #EEFB03;
+}
+
+
+p{
+    font-size: 25px;
+}
+h3{
+    font-size: 50px;
+}
+
+.img1{
+    margin-left: 55%;
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+#saludo{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
